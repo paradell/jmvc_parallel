@@ -1,0 +1,23 @@
+-r
+C:\jmvc\JMVC\H264Extension\src\tools\DownConvert\My Amplifier XE Results - DownConvertStatic\r001hs
+--data-limit-mb=100
+--follow-child
+--type=frame:counters
+--stackwalk=offline
+--type=cswitch
+--mrte-mode=auto
+--type=cpu:counters
+--type=cpu:stack
+--search-dir
+sym:p=C:/jmvc/JMVC/H264Extension/build/windows/tools/DownConvert/DebugStatic
+--search-dir
+sym=C:/jmvc/JMVC/H264Extension/build/windows
+--search-dir
+sym:p=C:/jmvc/bin
+--search-dir
+sym:p=C:/jmvc/JMVC/H264Extension/build/windows/tools/PSNR/DebugStatic
+--
+C:\jmvc\bin\H264AVCEncoderLibTestStatic.exe
+-vf
+c:\inputs\ballroom\cnf_ballroom_2_views.txt
+1

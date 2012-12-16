@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDPReciever", "UDPReciever\UDPReciever.vcproj", "{B91668A9-A236-4C44-93CC-CF49387CBA29}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDPSender", "UDPSender\UDPSender.vcproj", "{D557B6F5-0F78-43A9-A8EF-60DE53B6169E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B91668A9-A236-4C44-93CC-CF49387CBA29}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B91668A9-A236-4C44-93CC-CF49387CBA29}.Debug|Win32.Build.0 = Debug|Win32
+		{B91668A9-A236-4C44-93CC-CF49387CBA29}.Release|Win32.ActiveCfg = Release|Win32
+		{B91668A9-A236-4C44-93CC-CF49387CBA29}.Release|Win32.Build.0 = Release|Win32
+		{D557B6F5-0F78-43A9-A8EF-60DE53B6169E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D557B6F5-0F78-43A9-A8EF-60DE53B6169E}.Debug|Win32.Build.0 = Debug|Win32
+		{D557B6F5-0F78-43A9-A8EF-60DE53B6169E}.Release|Win32.ActiveCfg = Release|Win32
+		{D557B6F5-0F78-43A9-A8EF-60DE53B6169E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

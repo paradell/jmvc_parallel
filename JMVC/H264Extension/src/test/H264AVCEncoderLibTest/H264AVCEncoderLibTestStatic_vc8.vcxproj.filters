@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{062c82f8-a75a-4559-a96d-d8776ad1123f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{165cfa4f-e3da-4fb7-a0e4-aa921f82522b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c09676cc-262a-48fc-afab-c595a21095ab}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EncoderCodingParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H264AVCEncoderLibTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H264AVCEncoderTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EncoderCodingParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H264AVCEncoderLibTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H264AVCEncoderTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\data\akkoKayo_qp32.cfg" />
+    <None Include="..\..\..\data\assembler.cfg" />
+    <None Include="..\..\..\data\ballroom_qp32.cfg" />
+    <None Include="..\..\..\data\breakdancers_qp32.cfg" />
+    <None Include="..\..\..\data\encoderMVC.cfg" />
+    <None Include="..\..\..\data\exit_qp32.cfg" />
+    <None Include="..\..\..\data\flamenco2_qp32.cfg" />
+    <None Include="..\..\..\data\race1_qp32.cfg" />
+    <None Include="..\..\..\data\rena_qp32.cfg" />
+    <None Include="..\..\..\data\uli_qp32.cfg" />
+  </ItemGroup>
+</Project>
